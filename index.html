@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>TikTok | Clone App</title>
+</head>
+<body>
+    
+    <div class="container">
+        <!-- Inicio Menu -->
+        <div class="menu-bar">
+            <ul>
+                <li>
+                    <ion-icon name="home-sharp"></ion-icon>
+                    <span>Início</span>
+                </li>
+                <li>
+                    <ion-icon name="people-sharp"></ion-icon>
+                    <span>Amigos</span>
+                </li>
+                <li>
+                    <ion-icon name="add-sharp"></ion-icon>  
+                </li>
+                <li class="not-active">
+                    <ion-icon name="chatbubble-sharp"></ion-icon>
+                    <span>Mensagens</span>
+                </li>
+                <li>
+                    <ion-icon name="person-outline"></ion-icon>
+                    <span>Perfil</span>
+                </li>
+            </ul>
+        </div>
+        <!-- Fim Menu -->
+
+        <!-- Inicio Corpo -->
+            <main class="content">
+                <section id="home" class="box home active">
+                    <!-- Inicio Video -->
+                    <video controls loop>
+                        <source src="assets/videos/VID-20250925-WA0011.mp4" type="video/mp4">
+                    </video>
+                    <!-- Fim Video -->
+
+                    <!-- Inicio Topo -->
+                    <div class="top-bar">
+                        <div class="live">
+                            <div class="inner-live">Live</div>
+                        </div>
+
+                        <div class="seguindo-grupo">
+                            <span class="seguindo">Seguindo</span>
+                            <span class="para-voce active">Para você</span>
+                        </div>
+                        
+                        <div class="busca">
+                            <ion-icon name="search-outline"></ion-icon>
+                        </div>
+
+                    </div>
+                    <!-- Fim Topo -->
+
+                    <!-- Inicio Menu Direito-->
+                    <div class="menu-direito">
+                        <ul>
+                            <li>
+                                <img src="assets/img/perfil.png" alt="carlosdarocha">
+                                <span></span>
+                            </li>
+                            <li>
+                                <ion-icon name="heart"></ion-icon>
+                                <span>17.8k</span>
+                            </li>
+                            <li>
+                                <ion-icon name="chatbubble-ellipses"></ion-icon>
+                                <span>908</span>
+                            </li>
+                            <li>
+                                <ion-icon name="arrow-redo"></ion-icon>
+                                <span>5k</span>
+                            </li>
+                            <li>
+                                <ion-icon name="bookmark-sharp"></ion-icon>
+                                <span>2k</span>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- Inicio Menu Direito-->
+                </section>
+            </main>
+        <!-- Fim Corpo -->
+        
+    </div>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>
